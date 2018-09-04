@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/img_madrid"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Real Madrid CF"
+        android:layout_below="@+id/image1"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_below="@id/tvName"
+        android:text="Real Madrid Club de Fútbol,Royal Madrid Football Club), commonly known as Real Madrid, is a professional football club based in Madrid, Spain."
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        />
+
+</RelativeLayout>
